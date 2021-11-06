@@ -16,6 +16,7 @@ void main() {
     await tester.pumpAndSettle();
 
     await tester.tap(find.byKey(Key('signInEmailField')));
+    await tester.tap(find.byKey(Key('signInEmailField')));
     await tester.enterText(signInEmailField, "paras@gmail.com");
 
     await tester.tap(signInPasswordField);
